@@ -15,3 +15,13 @@ window.onload = function() {
     // Update the text in the HTML
     document.getElementById("greeting").textContent = greeting;
 };
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("name").style.visibility = "hidden";
+  }
+
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("name").style.visibility = "visible";
+  }

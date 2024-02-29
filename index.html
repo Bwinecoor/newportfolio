@@ -11,15 +11,29 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
   <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
   <nav class="navbar navbar-expand-lg sticky-top">
     <div class="container-fluid">
-      <a class="navbar-brand mx-5 titletext" href="#">
-        <p class="navtitle">Brandon Winecoor</p>
+      <a class="navbar-brand mx-5 titletext">
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn align-left" onclick="closeNav()"><svg xmlns="http://www.w3.org/2000/svg"
+              width="35" height="35" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+              <path
+                d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
+            </svg></a>
+          <a href="#home">Home/About Me</a>
+          <a href="#resume">Resume</a>
+          <a href="#skills">Skills</a>
+        </div>
+
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="sticky-top"><p class="navtitle" id="name">Brandon Winecoor</p></span>
+
+        
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -64,59 +78,61 @@
 
 
 
-<div class="everything">
+  <div class="everything">
 
-  <section id="aboutme" class="text-center mx-auto sectionpadding">
-    <br>
-    <h1 class="titletext">About Me</h1>
-    <div class="regmargin"></div>
-    <div class="row">
-      <div class="col-lg-6 ">
-    <img src="images/regimages/me.png" class="w-50 aboutimg">
+    <section id="aboutme" class=" mx-auto sectionpadding">
+      <br>
+      <div class="regmargin"></div>
+      <div class="row">
+        <div class="col-lg-6 abouttext">
+          <h1 class="titletext">About Me</h1>
+          <p class="regtext">I'm Brandon Winecoor, a 17-year-old from Morganville, NJ, passionate about web
+            design/development. I've been in my school's Honors Web Design Pathway Program for the last three years,
+            where I've learned HTML, CSS, JavaScript, and jQuery. This year, I have started my AP Computer Science
+            class, where we do block coding, and my Honors CyberSecurity class, where I've learned how to code in
+            Python. Beyond coding, I enjoy traveling, playing video games, spending time with friends, and watching
+            movies.</p>
+        </div>
+        <div class="col-lg-6 text-center">
+          <img src="images/regimages/me.png" class="w-50 aboutimg">
+        </div>
+
+      </div>
+    </section>
+
+
+
+    <section id="skills">
+
+
+
+    </section>
+
+
+
+    <section id="resume">
+
+
+
+    </section>
+
+
+
+    <section id="work">
+
+
+
+    </section>
+
+
+
+    <section id="contact">
+
+
+
+    </section>
+
   </div>
-  <div class="col-lg-6 abouttext">
-    <p class="regtext">I'm Brandon Winecoor, a 17-year-old from Morganville, NJ, passionate about web design/development. I've been in
-      my school's Honors Web Design Pathway Program for the last three years, where I've learned HTML, CSS, JavaScript,
-      and jQuery. This year, I have started my AP Computer Science class, where we do block coding, and my Honors
-      CyberSecurity class, where I've learned how to code in Python. Beyond coding, I enjoy traveling, playing video
-      games, spending time with friends, and watching movies.</p>
-    </div>
-    </div>
-  </section>
-
-
-
-  <section id="skills">
-
-
-
-  </section>
-
-
-
-  <section id="resume">
-
-
-
-  </section>
-
-
-
-  <section id="work">
-
-
-
-  </section>
-
-
-
-  <section id="contact">
-
-
-
-  </section>
-
-</div>
 
 
 
