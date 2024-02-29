@@ -9,19 +9,21 @@ window.onload = function() {
     } else if (hour >= 12 && hour < 18) {
         greeting = "Good afternoon";
     } else {
-        greeting = "Good evening";
+        greeting = "Good night";
     }
 
     // Update the text in the HTML
     document.getElementById("greeting").textContent = greeting;
+
+    closeNav();
 };
 
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
-    document.getElementById("name").style.visibility = "hidden";
-  }
+    document.getElementById("name").textContent = ""; 
+}
 
-  function closeNav() {
+function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
-    document.getElementById("name").style.visibility = "visible";
-  }
+    document.getElementById("name").textContent = "Brandon Winecoor"; 
+}
