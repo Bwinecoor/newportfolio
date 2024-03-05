@@ -9,7 +9,7 @@ window.onload = function() {
     } else if (hour >= 12 && hour < 18) {
         greeting = "Good afternoon";
     } else {
-        greeting = "Good night";
+        greeting = "Good evening";
     }
 
     // Update the text in the HTML
