@@ -84,7 +84,7 @@ body {
 }
 
 .aboutimg:hover {
-    border: 5px solid white;
+    border: 3px solid black;
     transition: .5s;
 }
 
@@ -168,5 +168,84 @@ body {
  }
 
  .imgsite {
-    border: 3px solid black;
+    border: 5px solid black;
+    background-color: black;
  }
+
+.site1 {
+  background-image: url(images/site\ images/juniorport.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 250px;
+}
+
+.site2 {
+  background-image: url(images/site\ images/littlebirdtoys.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 250px;
+}
+
+.site3 {
+  background-image: url(images/site\ images/rockpaperscissors.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 250px;
+}
+
+.site4 {
+  background-image: url(images/site\ images/dhruvasite.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 250px;
+}
+
+.site5 {
+  background-image: url(images/site\ images/halloweenanim.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 250px;
+}
+
+.site6 {
+  background-image: url(images/site\ images/holidayanim.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 250px;
+}
+
+.site1:hover {
+  opacity: 25%;
+}
+
+.site2:hover {
+  opacity: 25%;
+}
+
+.site3:hover {
+  opacity: 25%;
+}
+
+.site4:hover {
+  opacity: 25%;
+}
+
+.site5:hover {
+  opacity: 25%;
+}
+
+.site6:hover {
+  opacity: 25%;
+}
