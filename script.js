@@ -28,3 +28,20 @@ function closeNav() {
     document.getElementById("name").textContent = "Brandon Winecoor"; 
 }
 
+
+document.addEventListener("DOMContentLoaded", function() {
+    var element = document.getElementById('element');
+    var originalClass = 'navbar';
+    var switchedClass = 'navbar2';
+    var scrollThreshold = 500; // Adjust this value according to your needs
+    
+    window.addEventListener('scroll', function() {
+      if (window.scrollY > scrollThreshold && !element.classList.contains(switchedClass)) {
+        element.classList.remove(originalClass);
+        element.classList.add(switchedClass);
+      } else if (window.scrollY <= scrollThreshold && !element.classList.contains(originalClass)) {
+        element.classList.remove(switchedClass);
+        element.classList.add(originalClass);
+      }
+    });
+  });

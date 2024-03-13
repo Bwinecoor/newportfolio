@@ -33,7 +33,7 @@ body {
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-}
+} 
 
 .image-overlay-container {
     position: relative;
@@ -72,9 +72,22 @@ body {
 .navbar {
     border-bottom: 5px solid black;
     background-color: #7BAECC;
+    transition: 1s;
 }
 
-.abouttext {
+.navbar2 {
+  border: 3px solid black;
+  background-color: rgba(123, 174, 204, 0.911);
+  border-radius: 250px;
+  width: 60%;
+  transition: 1s;
+}
+
+.navbar, .navbar2 {
+  height: 70px;
+}
+
+.abouttext { 
     margin-top: auto;
 }
 
