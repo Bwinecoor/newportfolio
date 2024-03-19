@@ -45,3 +45,7 @@ function closeNav() {
 //       }
 //     });
 //   });
+
+function siteTitle1() {
+    document.getElementById(".site-title1").style.display = "block";
+}
