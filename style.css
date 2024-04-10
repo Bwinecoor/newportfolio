@@ -101,6 +101,10 @@ body {
     transition: .5s;
 }
 
+.skillsimg {
+  border: 5px solid black;
+} 
+
 .sidenav {
   height: 100%;
   width: 250px; /* Adjust as needed */
@@ -378,7 +382,7 @@ pre {
   z-index: 9999;
   overflow: auto; /* Allow text to overflow and create a scrollbar if needed */
   word-wrap: break-word; /* Break long words */
-  white-space: pre-wrap; /* Preserve whitespace and break lines */
+  white-space: f-wrap; /* Preserve whitespace and break lines */
 }
 
 
