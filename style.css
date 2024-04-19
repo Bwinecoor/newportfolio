@@ -109,7 +109,7 @@ body {
   background-size: contain;
 } 
 
-.skillsimg:hover {
+.skillsimg2 {
   background-image: url(images/regimages/chart.png);
   border: 5px solid black;
   transition: 0.5s;
@@ -373,4 +373,43 @@ body {
   border: 5px solid black;
   padding-top:20px;
   padding-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.397);
+  width: 75%;
+  margin: auto;
+  
+}
+
+.contactinput {
+  background-color: rgba(255, 255, 255, 0.397);
+  border: 2px solid black;
+  text-align: left;
+  width: 100%;
+  transition: .5s;
+  font-size: 22.5px;
+  padding-top:15px;
+  padding-bottom:15px;
+  padding-left: 15px;
+}
+
+.contactinput:focus {
+  border-radius: 10px;
+  transition: .5s;
+}
+
+.contactmessageinput {
+  background-color: rgba(255, 255, 255, 0.397);
+  border: 2px solid black;
+  text-align: left;
+  width: 100%;
+  transition: .5s;
+  font-size: 22.5px;
+  padding-top:15px;
+  padding-bottom:15px;
+  padding-left: 15px;
+  height: 150px;
+}
+
+.contactmessageinput:focus {
+  border-radius: 10px;
+  transition: .5s;
 }
