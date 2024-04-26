@@ -238,7 +238,7 @@ body {
   background-position: center;
   width: 100%;
   height: 250px;
-  
+  transition: .3s;
 }
 
 .site2 {
@@ -321,54 +321,6 @@ body {
   transition: .3s;
 }
 
-.site-title1 {
- display: none;
-}
-
-.site-button1 {
-  display: none;
-}
-
-.site-title2 {
-  display: none;
-}
-
-.site-button2 {
-  display: none;
-}
-
-.site-title3 {
-  display: none;
-}
-
-.site-button3 {
-  display: none;
-}
-
-.site-title4 {
-  display: none;
-}
-
-.site-button4 {
-  display: none;
-}
-
-.site-title5 {
-  display: none;
-}
-
-.site-button5 {
-  display: none;
-}
-
-.site-title6 {
-  display: none;
-}
-
-.site-button6 {
-  display: none;
-}
-
 .contactform {
   border: 5px solid black;
   padding-top:20px;
@@ -428,4 +380,19 @@ body {
   border-radius: 10px;
   background-color: white;
   transition: .5s;
+}
+
+.contactbutton:focus {
+  border-radius: 360px;
+  transition: .5s;
+}
+
+#footer {
+ border-top: 5px solid black;
+ background-color: #c4dbe8; 
+}
+
+.socials {
+  border-radius: 360px;
+  border: 3px solid black;
 }
