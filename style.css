@@ -1,61 +1,3 @@
-/* Background Colors Start*/
-
-body {
-  background-color: #98C1D9;
-  cursor: url(images/customcursors/customcursor.png), crosshair;
-}
-
-html {
-height: 100%;
-}
-
-.everything {
-  width: 80%;
-  margin: auto;
-  border-right: 5px solid black;
-  border-left: 5px solid black;
-  background-color: #C4DBE8;
-  height: 100%;
-}
-
-.navbar {
-  border-bottom: 5px solid black;
-  background-color: #7BAECC;
-  transition: 1s;
-}
-
-.navbar2 {
-border: 3px solid black;
-background-color: rgba(123, 174, 204, 0.911);
-border-radius: 250px;
-width: 60%;
-transition: 1s;
-}
-
-.sidenav {
-height: 100%;
-width: 250px; /* Adjust as needed */
-position: fixed;
-left: 0;
-top: 0;
-background-color: #7BAECC;
-overflow-x: hidden;
-transition: 0.5s;
-padding-top: 60px;
-border-right: 7.5px solid #202A25;
-}
-.sidenav a:hover {
-  background-color: #C4DBE8;
-  border-radius: 25px;
-}
-
-
-
-/* Background Colors End */
-
-
-
-
 .navtitle {
     font-size: 25px;
     margin: 0px 0px 0px;
@@ -156,7 +98,7 @@ border-right: 7.5px solid #202A25;
 .skillsimg {
   background-image: url(images/regimages/chart-initial.png);
   border: 5px solid black;
-  transition: 0.5s;
+  transition: 2s;
   height: 657px;
   background-size: contain;
   background-repeat: no-repeat;
@@ -166,7 +108,7 @@ border-right: 7.5px solid #202A25;
 .skillsimg2 {
   background-image: url(images/regimages/chart.png);
   border: 5px solid black;
-  transition: 0.5s;
+  transition: 2s;
   height: 657px;
   background-size: contain;
   background-repeat: no-repeat;
@@ -440,11 +382,6 @@ border-right: 7.5px solid #202A25;
 .contactbutton:focus {
   border-radius: 360px;
   transition: .5s;
-}
-
-#footer {
- border-top: 5px solid black;
- background-color: #c4dbe8; 
 }
 
 .socials {
