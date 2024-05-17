@@ -228,16 +228,6 @@
   transition: .3s;
 }
 
-.contactform {
-  border: 5px solid black;
-  padding-top:20px;
-  padding-bottom: 20px;
-  background-color: rgba(255, 255, 255, 0.397);
-  width: 75%;
-  margin: auto;
-  
-}
-
 .contactinput {
   background-color: rgba(255, 255, 255, 0.397);
   border: 2px solid black;
@@ -298,3 +288,4 @@
 .whitetext {
   color: white!important;
 }
+

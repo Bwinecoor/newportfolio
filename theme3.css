@@ -155,3 +155,13 @@ border-right: 7.5px solid #202A25;
     background-repeat: no-repeat;
     background-color: #EF233C;
   }
+
+  .contactform {
+    border: 5px solid black;
+    padding-top:20px;
+    padding-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.397);
+    width: 75%;
+    margin: auto;
+    
+  }
