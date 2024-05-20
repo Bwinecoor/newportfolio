@@ -162,3 +162,28 @@ body {
   margin: auto;
   
 }
+
+
+.herothing {
+  height: 600px;
+  width: 100%;
+  border-bottom: 5px solid black;
+}
+
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-image: url(images/regimages/herobg2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 5px solid black;
+}
+
+canvas {
+  display: block;
+  height: 600px;
+  width: 100%;
+}
