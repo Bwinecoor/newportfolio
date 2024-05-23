@@ -1,3 +1,7 @@
+html {
+  cursor: url(images/customcursors/customcursor.png), auto ;
+}
+
 .navtitle {
     font-size: 25px;
     margin: 0px 0px 0px;
