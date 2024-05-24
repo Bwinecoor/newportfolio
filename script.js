@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const scrollPosition = window.scrollY;
 
         // Define the scroll threshold to trigger the class change
-        const scrollThreshold = window.innerHeight * 0.5; // Change 0.5 to adjust when to trigger the change
+        const scrollThreshold = window.innerHeight * 0.8; // Change 0.5 to adjust when to trigger the change
 
         // Check if scroll position is below the scroll threshold
         if (scrollPosition >= scrollThreshold) {

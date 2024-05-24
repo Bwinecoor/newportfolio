@@ -6,6 +6,34 @@ html {
 height: 100%;
 }
 
+a {
+  cursor: url(images/customcursors/customcursorclickbr.png), auto ;
+}
+
+input {
+  cursor: url(images/customcursors/customcursorclickbr.png), auto ;
+}
+
+textarea {
+  cursor: url(images/customcursors/customcursorclickbr.png), auto ;
+}
+
+button {
+  cursor: url(images/customcursors/customcursorclickbr.png), auto ;
+}
+
+#name {
+  cursor: url(images/customcursors/customcursorclickbr.png), auto ;
+}
+
+.contactbutton:hover {
+  border-radius: 10px;
+  background-color: white;
+  transition: .5s;
+  cursor: url(images/customcursors/customcursorclickbr.png), auto ;
+}
+
+
 .everything {
   width: 80%;
   margin: auto;
@@ -74,6 +102,8 @@ border-right: 7.5px solid #202A25;
       background-color: #b31b2d;
       color: white;
       transition: 1s;
+      cursor: url(images/customcursors/customcursorclickbr.png), auto ;
+
    }
 
    .sidenav {

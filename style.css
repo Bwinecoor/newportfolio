@@ -2,11 +2,6 @@ html {
   cursor: url(images/customcursors/customcursor.png), auto ;
 }
 
-a {
-  cursor: url(images/customcursors/customcursorclick.png), auto ;
-}
-
-
 .navtitle {
     font-size: 25px;
     margin: 0px 0px 0px;
@@ -283,11 +278,7 @@ a {
   transition: .5s;
 }
 
-.contactbutton:hover {
-  border-radius: 10px;
-  background-color: white;
-  transition: .5s;
-}
+
 
 .contactbutton:focus {
   border-radius: 360px;
