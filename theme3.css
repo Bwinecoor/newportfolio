@@ -221,3 +221,16 @@ canvas {
   height: 600px;
   width: 100%;
 }
+
+.githubbutton {
+  border: 3px solid black;
+  border-radius: 25px;
+  padding: 20px;
+  width: 300px;
+  height:100px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.397);
+  background-image: url(images/regimages/githubrepository.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
