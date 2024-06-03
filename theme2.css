@@ -233,3 +233,12 @@ canvas {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.githubbutton:hover {
+  background-image: url(images/regimages/githubrepositoryhoverbw.png);
+  transition: .5s;
+  cursor: url(images/customcursors/customcursorclickbw.png), auto;
+  border: 5px solid white;
+  outline: 3px solid black;
+  outline-offset: 0px;
+}

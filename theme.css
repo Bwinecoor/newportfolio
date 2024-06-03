@@ -227,4 +227,14 @@ canvas {
   background-image: url(images/regimages/githubrepository.png);
   background-repeat: no-repeat;
   background-size: cover;
+  transition: .5s;
+}
+
+.githubbutton:hover {
+  background-image: url(images/regimages/githubrepositoryhover.png);
+  transition: .5s;
+  cursor: url(images/customcursors/customcursorclick.png), auto;
+  border: 5px solid #DBE9F1;
+  outline: 3px solid black;
+  outline-offset: 0px;
 }
